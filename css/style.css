@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:wght@500&family=Oxygen:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  background-color: rgb(225, 247, 255);
+  color: rgb(35, 11, 121);
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.opening {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 4.5rem;
+}
+
+.footer {
+  margin-top: auto;
+  margin-bottom: 1em;
+  bottom: 0;
+  position: sticky;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.pad {
+  display: flex;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight:bolder;
+  background-color: rgb(252, 171, 255);
+  color: rgb(20, 20, 20);
+  margin: 20px;
+}
